@@ -1,0 +1,86 @@
+[
+	{
+		"Year" : 2015,
+		"Semester" : [
+			{
+				"Spring" : [
+					{
+						"Course":602,
+						"Level":"G",
+						"Title":"Java Programming",
+						"Course Description": "Prerequisite: advanced Web-based programming with an emphasis on the Java language and platform. No prior knowledge of Java is required but students are expected to have a good understanding of object-oriented programming concepts such as encapsulation, inheritance, and polymorphism, experience with C++. Basic constructs and syntax and then the core advanced features. Topics include: networking and sockets, remote method invocation (RMI), database connectivity (JDBC), Java Beans, multi-threading and lighweight components (Swing). Common gateway interface (CGI) languages and browser scripting (JavaScript and VBScript) are discussed when used as a complement to the functionality of the Java language. Emphasis is on the latest version of Java, both deprecated methods and newly introduced features are discussed."
+					},
+					{
+						"Course":630,
+						"Level":"G",
+						"Title":"Operating Systems Design",
+						"Course Description": "Prerequisites: CS 332, CS 432 (see undergraduate catalog for descriptions) and CS 505. An intensive study of computer operating system design including multiprogramming, time-sharing, real-time processing, job and task control, synchronization of concurrent processes and processors, resource scheduling, protection, and management of hierarchical storage."
+					},
+					{
+						"Course":656,
+						"Level":"G",
+						"Title":"Intrnet&Higher Layer Pro",
+						"Course Description": "The course introduces the protocols and standards of the TCP/IP suite that govern the functioning of the Internet. The material covered in class is a top-down approach on introduction, discussion, and analysis of protocols from the data-link layer to the application layer. Alternative protocols to the TCP/IP suite and new protocols adopted by this suite are discussed. Numerical examples related to network planning and proocol functioning are analyzed." 
+					}
+				],
+				"Fall" : [
+					{
+						"Course": 631,
+						"Level": "G",
+						"Title": "Data Mgt Systems Design",
+						"Course Description": "Prerequisite: knowledge of C and data structures. Acquaintance with fundamental notions of relational database technology. Mathematical properties and usage of database programming languages. Methods of database design and conceptual modeling. Methods of physical storage for database information. Fundamental notions of concurrency control and recovery in database systems."
+					},
+					{
+						"Course": 683,
+						"Level": "G",
+						"Title": "Software Project Management",
+						"Course Description": "This course gives the student the necessary background to allow her/him to manage software projects; this includes economic, managerial and organizational aspects. The essence of software engineering is not only to introduce a valuable software product, but to do so economically and competitively. Like any engineering discipline, software engineering depends critically on managerial, economic and organizational considerations. Students will learn software management technique, various software costing techniques including COCOMO and ROI, team organization and management, and various methods of software development including Cleanroom and Agile."
+					},
+					{
+						"Course": 698,
+						"Level": "G",
+						"Title": "ST: Big Data",
+						"Course Description": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"Year" : 2016,
+		"Semester" : [
+			{
+				"Spring" : [
+					{
+						"Course": 646,
+						"Level": "G",
+						"Title": "Network Protocols Security",
+						"Course Description": "Prerequisites: CS 656 or ECE 637, and ability to program in Java and C/C++. This course covers the security of network protocols currently used on the internet. It seeks to familiarize students with common threats and network attacks, and provides an in-depth study of methods used to secure network communication. The course includes an applied component, which will help students gain practical experience in attacking and defending networked systems. Topics include authentication systems, and routing security, firewalls, intrusion detection, honeypots, wireless network security, malware, propagation and detection, and web security."
+					},
+					{
+						"Course": 601,
+						"Level": "G",
+						"Title": "Organizational Behavior",
+						"Course Description": "Analysis of key organizational components; individual perception; learning ability; conflict resolution models; group processes in decision making; motivation; problem diagnosis, and the organization as the mechanism for joining into a coherent productive system. Organizational assessment for innovation, leadership styles, and environmental interaction."
+					}
+				],
+				"Summer" : [
+					{
+						"Course": 610,
+						"Level": "G",
+						"Title": "Data Structure & Alg",
+						"Course Description": "Prerequisite: CS 505 or CS 335 or equivalents (see undergraduate catalog for description). Intensive study of the fundamentals of data structures and algorithms. Presents the definitions, representations, processing algorithms for data structures, general design and analysis techniques for algorithms. Covers a broad variety of data structures, algorithms and their applications including linked lists, various tree organizations, hash tables, strings, storage allocation, algorithms for searching and sorting, and a selected collection of other algorithms. Programs are assigned to give students experience in algorithms, data structure design and implementation."
+					}
+				],
+				"Fall" : [
+					{
+						"Course": 634,
+						"Level": "G",
+						"Title": "Data Mining",
+						"Course Description": "This course covers the principles of data mining system design and implementation. It presents methods for association and dependency analysis as well as classification, prediction, and clustering. Optional topics may include time series and graph mining, current trends in data mining, and data mining for scientific, medical and engineering applications."
+					}
+				]
+			}
+		]
+	}
+]
