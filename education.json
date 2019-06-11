@@ -40,7 +40,7 @@
 						"Course": 698,
 						"Level": "G",
 						"Title": "ST: Big Data",
-						"Course Description": ""
+						"Course Description": "This course provides an in-depth coverage of special topics in big data from data generation, storage, management, transfer, to analytics, with focuses on the state-of-the-art technologies, tools, architectures, and systems that constitute big-data computing solutions in high-performance networks. Real-life bigdata applications in various domains (particularly in sciences) are introduced as use cases to illustrate the development, deployment, and testing of a wide spectrum of emerging big-data solutions."
 					}
 				]
 			}
