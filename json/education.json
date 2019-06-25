@@ -1,83 +1,364 @@
 [
 	{
-		"Year" : 2015,
-		"Semester" : [
+		"University" : "University of Pune",
+		"Degree" : "Bachelors of Engineering",
+		"Courses": [
 			{
-				"Spring" : [
+				"Year" : 2012,
+				"Second Year" : [
 					{
-						"Course":602,
-						"Level":"G",
-						"Title":"Java Programming",
-						"Course Description": "Prerequisite: advanced Web-based programming with an emphasis on the Java language and platform. No prior knowledge of Java is required but students are expected to have a good understanding of object-oriented programming concepts such as encapsulation, inheritance, and polymorphism, experience with C++. Basic constructs and syntax and then the core advanced features. Topics include: networking and sockets, remote method invocation (RMI), database connectivity (JDBC), Java Beans, multi-threading and lighweight components (Swing). Common gateway interface (CGI) languages and browser scripting (JavaScript and VBScript) are discussed when used as a complement to the functionality of the Java language. Emphasis is on the latest version of Java, both deprecated methods and newly introduced features are discussed."
-					},
-					{
-						"Course":630,
-						"Level":"G",
-						"Title":"Operating Systems Design",
-						"Course Description": "Prerequisites: CS 332, CS 432 (see undergraduate catalog for descriptions) and CS 505. An intensive study of computer operating system design including multiprogramming, time-sharing, real-time processing, job and task control, synchronization of concurrent processes and processors, resource scheduling, protection, and management of hierarchical storage."
-					},
-					{
-						"Course":656,
-						"Level":"G",
-						"Title":"Internet & Higher Layer Pro",
-						"Course Description": "The course introduces the protocols and standards of the TCP/IP suite that govern the functioning of the Internet. The material covered in class is a top-down approach on introduction, discussion, and analysis of protocols from the data-link layer to the application layer. Alternative protocols to the TCP/IP suite and new protocols adopted by this suite are discussed. Numerical examples related to network planning and proocol functioning are analyzed." 
+						"Semester One" : [
+							{
+								"Course":210241,
+								"Level":"B",
+								"Title":"Discrete Structures",
+								"Course Description": "Prerequisite: Basic Mathematics. Discrete mathematics- the mathematics of integers and of collections of object – underlies the operation of digital computer, and is used widely in all fields of computer science for reasoning about data structures algorithms and complexity. The primary objective of subject is to prepare students mathematically for the study of computer engineering. Topics covered in the course include proof techniques, logic and sets, functions, relations, counting techniques, probability and recurrences. By the end of the course, students should be able to formulate problems precisely, solve the problems, apply formal proof techniques, and explain their reasoning clearly."
+							},{
+								"Course":214442,
+								"Level":"B",
+								"Title":"Computer Organization",
+								"Course Description": "Prerequisite: Basic Mathematics. Discrete mathematics- the mathematics of integers and of collections of object – underlies the operation of digital computer, and is used widely in all fields of computer science for reasoning about data structures algorithms and complexity. The primary objective of subject is to prepare students mathematically for the study of computer engineering. Topics covered in the course include proof techniques, logic and sets, functions, relations, counting techniques, probability and recurrences. By the end of the course, students should be able to formulate problems precisely, solve the problems, apply formal proof techniques, and explain their reasoning clearly."
+							},{
+								"Course":210243,
+								"Level":"B",
+								"Title": "Digital Electronics and Logic Design",
+								"Course Description" : "To learn and understand basic digital design techniques. To learn and understand design and construction of combinational and sequential circuits. To introduce basic components of microprocessors"
+							},{
+								"Course":214441,
+								"Level":"B",
+								"Title": "Fundamentals of Data Structures",
+								"Course Description" : "The students shall learn the C language and pointers in depth. They will be able to use pointers for data manipulation. They will learn linear data structures."
+							},{
+								"Course":207005,
+								"Level":"B",
+								"Title": "Humanities and Social Sciences",
+								"Course Description" : "This course will lead to the learning of Human and social development. Contemporary national and international affairs. Emergence of Indian society and Economics. Sectoral development and Economic development and related issues (such as international economics, WTO, RBI, etc)."
+							},{
+								"Course":214443,
+								"Level":"B",
+								"Title": "Digital Lab",
+								"Course Description" : ""
+							},{
+								"Course":214444,
+								"Level":"B",
+								"Title": "Programming Lab",
+								"Course Description" : "This laboratory includes the assignments based on Fundamentals of Data Structures using features of C Language."
+							},{
+								"Course":214445,
+								"Level":"B",
+								"Title": "Communication and Language Lab",
+								"Course Description" : ""
+							}
+						],
+						"Semester Two" : [
+							{
+								"Course":207003,
+								"Level":"B",
+								"Title": "Engineering Mathematics 3",
+								"Course Description" : ""
+							},{
+								"Course":214446,
+								"Level":"B",
+								"Title": "Computer Graphics",
+								"Course Description" : "Understand the foundations of computer graphics: hardware systems, math basis, light and color. Come to appreciate the complexities of modeling realistic objects through modeling complex scenes using a high-level scene description language. Become acquainted with some advanced topics in computer graphics. The student should gain an expanded vocabulary for discussing issues relevant to computer graphics (including both the underlying mathematics and the actual programming). The student should gain an appreciation and understanding of the hardware and software utilized in constructing computer graphics applications. The student should gain a comprehension of windows, clipping and view-ports in relation to images displayed on screen. The student should gain an understanding of geometric, mathematical and algorithmic concepts necessary for programming computer graphics."
+							},{
+								"Course":214447,
+								"Level":"B",
+								"Title": "Processor Architectures and Interfacing",
+								"Course Description" : "To learn the architecture and assembly language programming of 80386 Microprocessor. To provide insight to DOS and BIOS and their functions. To study architecture and programming 8051 micro-controllers."
+							},{
+								"Course":214448,
+								"Level":"B",
+								"Title": "Data Structures and Files",
+								"Course Description" : "The students should be capable of applying appropriate data structures for any given application."
+							},{
+								"Course":214449,
+								"Level":"B",
+								"Title": "Data Communication",
+								"Course Description" : "Fundamentals of data communications. Basic Network configurations. Understanding the differences between data communications and telecommunications. Practical examples of networks such as Fundamentals of communications media, Hardware configurations within networks, Data transmissions."
+							},{
+								"Course":214450,
+								"Level":"B",
+								"Title": "Processor Interfacing Lab",
+								"Course Description" : ""
+							},{
+								"Course":214451,
+								"Level":"B",
+								"Title": "Data Structures and Files Lab",
+								"Course Description" : ""
+							},{
+								"Course":210253,
+								"Level":"B",
+								"Title": "Object Oriented Programming Lab",
+								"Course Description" : ""
+							}
+						]
 					}
-				],
-				"Fall" : [
+				]
+			},
+			{
+				"Year" : 2013,
+				"Third Year" : [
 					{
-						"Course": 631,
-						"Level": "G",
-						"Title": "Data Mgt Systems Design",
-						"Course Description": "Prerequisite: knowledge of C and data structures. Acquaintance with fundamental notions of relational database technology. Mathematical properties and usage of database programming languages. Methods of database design and conceptual modeling. Methods of physical storage for database information. Fundamental notions of concurrency control and recovery in database systems."
-					},
+						"Semester One" : [
+							{
+								"Course":314441,
+								"Level":"B",
+								"Title":"Operating System",
+								"Course Description": "Prerequisites: Computer Organization ( Subject Code : 214442 ), Fundamental of Data structures ( Subject Code : 214441). To learn the evolution of Operating systems. To study the operations performed by Operating System as a resource manager. To study computer security issues and Operating System tools."
+							},{
+								"Course":314442,
+								"Level":"B",
+								"Title":"Theory Of Computation",
+								"Course Description": "Prerequisites: Discrete Structure(Subject Code: 210241). To study the abstract computing model. To study automata theory and types and applications of formal grammar."
+							},{
+								"Course":314443,
+								"Level":"B",
+								"Title": "Computer Network Technology",
+								"Course Description" : "Prerequisites: Data Communication (Subject Code: 214449). To learn the Techniques of routing, network management. Services offered by transport and application layers. Introduction of High Speed Network"
+							},{
+								"Course":310241,
+								"Level":"B",
+								"Title": "Database Management Systems",
+								"Course Description" : "Prerequisites: Discrete Structures, Data Structures. To implement an entity relationship diagrams (ERD) to express requirements and demonstrates skills to model data requirements and create data models in to normalized designs. To develop understanding of database systems theory in order to apply that knowledge to any particular database implementation using SQL. To learn and understand various Database Architectures and Applications"
+							},{
+								"Course":310253,
+								"Level":"B",
+								"Title": "Software Engineering",
+								"Course Description" : "Objectives: To learn and understand the Concepts of Software Engineering To Learn and understand Software Development Life Cycle To apply the project management and analysis principles to S/W project development. To apply the design & testing principles to S/W project development"
+							},{
+								"Course":314444,
+								"Level":"B",
+								"Title": "Operating System Design Lab",
+								"Course Description" : "To Study the operating systems functioning and internals"
+							},{
+								"Course":314445,
+								"Level":"B",
+								"Title": "Information Systems Design Lab",
+								"Course Description" : "To understand basics of GUI programming. To understand and learn Visual programming paradigms and database programming. To understand and learn RDBMS concepts, database design principles. To understand and learn SQL DDL, DML. To get exposure to development experience of small systems through developing a mini project."
+							},{
+								"Course":314446,
+								"Level":"B",
+								"Title": "Network Lab",
+								"Course Description" : "To study installation, maintenance of network Laboratory based on Computer Networks Technology (314443)."
+							},{
+								"Course":314447,
+								"Level":"B",
+								"Title": "Soft Skills Lab",
+								"Course Description" : "To help students develop their soft skills and equip them with the requisite skills to make their communication effective. To develop other skills this will make the transition from college to workplace, smoother and help them to excel in their jobs. To enhance students performance at placement interviews, group discussion and other recruitment process. Understand and participate in Group Discussions and related activities. Understand the basics of how to make an effective presentation. Learn the development of self-confidence. "
+							}
+						],
+						"Semester Two" : [
+							{
+								"Course":314448,
+								"Level":"B",
+								"Title": "System Software Programming",
+								"Course Description" : "Prerequisites: Computer Organization, Data Structures and Files, Microprocessor and Assembly Language, Theory of Computation. To learn and understand fundamentals of Systems Programming. To design and develop various system software."
+							},{
+								"Course":314449,
+								"Level":"B",
+								"Title": "Management Information Systems",
+								"Course Description" : "Prerequisites: Basics of management and their functions. Database management systems and its implementation. To learn and understand fundamentals of Information Systems. To learn and understand methodology and applications of MIS in manufacturing and service industry with the help of case studies. To learn how Information System supports in problem solving and managerial decision making. To learn current trends in electronic business."
+							},{
+								"Course":314450,
+								"Level":"B",
+								"Title": "Programming Paradigms",
+								"Course Description" : "Prerequisites: Data structures and Files. Theory of Computations. To understand the basic building blocks of programming Languages. To Learn and understand various programming paradigms."
+							},{
+								"Course":314455,
+								"Level":"B",
+								"Title": "Design and Analysis of Algorithms",
+								"Course Description" : "Prerequisites: Fundamentals of Data structures. Basic Algorithms ---Searching, Sorting, Graph based, structures. Basic math and probability knowledge required. To know the basics of computational complexity analysis and various algorithm design paradigms. Provide students with solid foundations to deal with a wide variety of computational problems. To provide a thorough knowledge of the most common algorithms and data structures. To analyze a problem and identify the computing requirements appropriate for its solution."
+							},{
+								"Course":314451,
+								"Level":"B",
+								"Title": "Human Computer Interaction and Usability",
+								"Course Description" : "By the end of this course, a student will recognize the importance of human psychology in interface design process . Following are the some Objectives 1. To expose students to the central concepts of human-computer interaction. 2. To identify the main modes of human computer interaction. 3. To understand the role of ICT society. 4. To introduce students to techniques of user interface design, interaction paradigms, and current trends in HCI research and development. 5. To learn (and to apply) useful criteria for guiding the design and evaluation of user interfaces. 6. To identify key open problems in HCI and to discuss potential solutions"
+							},{
+								"Course":314452,
+								"Level":"B",
+								"Title": "Software Design Lab",
+								"Course Description" : ""
+							},{
+								"Course":314453,
+								"Level":"B",
+								"Title": "Software Development Tools Lab",
+								"Course Description" : "Prerequisites: Knowledge of object oriented principles. Basics of database management systems. Objectives: To learn and understand fundamentals object oriented programming using core java. To learn and understand client side programming of a small project. To learn and understand server side programming of a small project."
+							},{
+								"Course":314454,
+								"Level":"B",
+								"Title": "Seminar and Technical Communication",
+								"Course Description" : "Each student will select a topic in the area of Computer Engineering and Technology preferably keeping track with recent technological trends and development. The topic must be selected in consultation with the institute guide. Each student will make a seminar presentation in the term making use of audio/visual aids for a duration of 20-25 minutes and submit the seminar report in the form of bound journal (two copies) duly signed by the guide and Head of department. Attendance at seminars for all students is compulsory. A panel of staff members from the institute will assess the seminar internally during the presentation."
+							}
+						]
+					}
+				]
+			},
+			{
+				"Year" : 2014,
+				"Forth Year" : [
 					{
-						"Course": 683,
-						"Level": "G",
-						"Title": "Software Project Management",
-						"Course Description": "This course gives the student the necessary background to allow her/him to manage software projects; this includes economic, managerial and organizational aspects. The essence of software engineering is not only to introduce a valuable software product, but to do so economically and competitively. Like any engineering discipline, software engineering depends critically on managerial, economic and organizational considerations. Students will learn software management technique, various software costing techniques including COCOMO and ROI, team organization and management, and various methods of software development including Cleanroom and Agile."
-					},
-					{
-						"Course": 698,
-						"Level": "G",
-						"Title": "ST: Big Data",
-						"Course Description": "This course provides an in-depth coverage of special topics in big data from data generation, storage, management, transfer, to analytics, with focuses on the state-of-the-art technologies, tools, architectures, and systems that constitute big-data computing solutions in high-performance networks. Real-life bigdata applications in various domains (particularly in sciences) are introduced as use cases to illustrate the development, deployment, and testing of a wide spectrum of emerging big-data solutions."
+						"Semester One" : [
+							{
+								"Course":414441,
+								"Level":"B",
+								"Title":"Information Assurance and Security",
+								"Course Description": "Understand the essentials of information security. Learn the algorithms for implementing security "
+							},{
+								"Course":410443,
+								"Level":"B",
+								"Title":"Object Oriented Modeling and Design",
+								"Course Description": "Introduction to Modeling and Design of software, firmware and business processes. Introduce UML 2.0 and its diagrams as a modeling tool for large and complex systems. Understand the concepts being modeled in UML. "
+							},{
+								"Course":414442,
+								"Level":"B",
+								"Title": "Software Testing and Quality Assurance",
+								"Course Description" : "Introduction to software testing lifecycle. Understanding various types of software tests and quality control standards"
+							},{
+								"Course":414443,
+								"Level":"B",
+								"Title": "Advanced Operating Systems",
+								"Course Description" : "To understand and explore advanced OS concepts. To study OS Design and internals"
+							},{
+								"Course":414444,
+								"Level":"B",
+								"Title": "Mobile Computing",
+								"Course Description" : "Understanding the fundamentals involved in technologies of Mobile computing"
+							},{
+								"Course":414441,
+								"Level":"B",
+								"Title": "Information Assurance and Security Laboratory",
+								"Course Description" : ""
+							},{
+								"Course":414445,
+								"Level":"B",
+								"Title": "Computer Lab Practices I",
+								"Course Description" : ""
+							},{						
+								"Course":414446,
+								"Level":"B",
+								"Title": "Project Work",
+								"Course Description" : ""
+							}
+						],
+						"Semester Two" : [
+							{
+								"Course":414448,
+								"Level":"B",
+								"Title": "Distributed System",
+								"Course Description" : "Understand the fundamentals of distributed environment in complex application"
+							},{
+								"Course":414449,
+								"Level":"B",
+								"Title": "Information Retrieval",
+								"Course Description" : "To deal with IR representation, storage, organization & access to information items"
+							},{
+								"Course":414450,
+								"Level":"B",
+								"Title": "Software Architecture",
+								"Course Description" : "Introduction to the software architecture as a discipline. Introduction to current architecture approach. Introduction to software architecture strategies."
+							},{
+								"Course":414451,
+								"Level":"B",
+								"Title": "Geo Informatics Systems",
+								"Course Description" : "Understand the bird’s eye view of geographical Information system and its applications"
+							},{
+								"Course":414452,
+								"Level":"B",
+								"Title": "Computer Lab Practices II",
+								"Course Description" : ""
+							}
+						]
 					}
 				]
 			}
 		]
-	},
+	},	
 	{
-		"Year" : 2016,
-		"Semester" : [
+		"University" : "New Jersey Institute of Technology",
+		"Degree" : "Masters of Computer Science",
+		"Courses": [
 			{
-				"Spring" : [
+				"Year" : 2015,
+				"Semester" : [
 					{
-						"Course": 646,
-						"Level": "G",
-						"Title": "Network Protocols Security",
-						"Course Description": "Prerequisites: CS 656 or ECE 637, and ability to program in Java and C/C++. This course covers the security of network protocols currently used on the internet. It seeks to familiarize students with common threats and network attacks, and provides an in-depth study of methods used to secure network communication. The course includes an applied component, which will help students gain practical experience in attacking and defending networked systems. Topics include authentication systems, and routing security, firewalls, intrusion detection, honeypots, wireless network security, malware, propagation and detection, and web security."
-					},
-					{
-						"Course": 601,
-						"Level": "G",
-						"Title": "Organizational Behavior",
-						"Course Description": "Analysis of key organizational components; individual perception; learning ability; conflict resolution models; group processes in decision making; motivation; problem diagnosis, and the organization as the mechanism for joining into a coherent productive system. Organizational assessment for innovation, leadership styles, and environmental interaction."
+						"Spring" : [
+							{
+								"Course":602,
+								"Level":"G",
+								"Title":"Java Programming",
+								"Course Description": "Prerequisite: advanced Web-based programming with an emphasis on the Java language and platform. No prior knowledge of Java is required but students are expected to have a good understanding of object-oriented programming concepts such as encapsulation, inheritance, and polymorphism, experience with C++. Basic constructs and syntax and then the core advanced features. Topics include: networking and sockets, remote method invocation (RMI), database connectivity (JDBC), Java Beans, multi-threading and lighweight components (Swing). Common gateway interface (CGI) languages and browser scripting (JavaScript and VBScript) are discussed when used as a complement to the functionality of the Java language. Emphasis is on the latest version of Java, both deprecated methods and newly introduced features are discussed."
+							},
+							{
+								"Course":630,
+								"Level":"G",
+								"Title":"Operating Systems Design",
+								"Course Description": "Prerequisites: CS 332, CS 432 (see undergraduate catalog for descriptions) and CS 505. An intensive study of computer operating system design including multiprogramming, time-sharing, real-time processing, job and task control, synchronization of concurrent processes and processors, resource scheduling, protection, and management of hierarchical storage."
+							},
+							{
+								"Course":656,
+								"Level":"G",
+								"Title":"Intrnet&Higher Layer Pro",
+								"Course Description": "The course introduces the protocols and standards of the TCP/IP suite that govern the functioning of the Internet. The material covered in class is a top-down approach on introduction, discussion, and analysis of protocols from the data-link layer to the application layer. Alternative protocols to the TCP/IP suite and new protocols adopted by this suite are discussed. Numerical examples related to network planning and proocol functioning are analyzed." 
+							}
+						],
+						"Fall" : [
+							{
+								"Course": 631,
+								"Level": "G",
+								"Title": "Data Mgt Systems Design",
+								"Course Description": "Prerequisite: knowledge of C and data structures. Acquaintance with fundamental notions of relational database technology. Mathematical properties and usage of database programming languages. Methods of database design and conceptual modeling. Methods of physical storage for database information. Fundamental notions of concurrency control and recovery in database systems."
+							},
+							{
+								"Course": 683,
+								"Level": "G",
+								"Title": "Software Project Management",
+								"Course Description": "This course gives the student the necessary background to allow her/him to manage software projects; this includes economic, managerial and organizational aspects. The essence of software engineering is not only to introduce a valuable software product, but to do so economically and competitively. Like any engineering discipline, software engineering depends critically on managerial, economic and organizational considerations. Students will learn software management technique, various software costing techniques including COCOMO and ROI, team organization and management, and various methods of software development including Cleanroom and Agile."
+							},
+							{
+								"Course": 698,
+								"Level": "G",
+								"Title": "ST: Big Data",
+								"Course Description": "This course provides an in-depth coverage of special topics in big data from data generation, storage, management, transfer, to analytics, with focuses on the state-of-the-art technologies, tools, architectures, and systems that constitute big-data computing solutions in high-performance networks. Real-life bigdata applications in various domains (particularly in sciences) are introduced as use cases to illustrate the development, deployment, and testing of a wide spectrum of emerging big-data solutions."
+							}
+						]
 					}
-				],
-				"Summer" : [
+				]
+			},
+			{
+				"Year" : 2016,
+				"Semester" : [
 					{
-						"Course": 610,
-						"Level": "G",
-						"Title": "Data Structure & Alg",
-						"Course Description": "Prerequisite: CS 505 or CS 335 or equivalents (see undergraduate catalog for description). Intensive study of the fundamentals of data structures and algorithms. Presents the definitions, representations, processing algorithms for data structures, general design and analysis techniques for algorithms. Covers a broad variety of data structures, algorithms and their applications including linked lists, various tree organizations, hash tables, strings, storage allocation, algorithms for searching and sorting, and a selected collection of other algorithms. Programs are assigned to give students experience in algorithms, data structure design and implementation."
-					}
-				],
-				"Fall" : [
-					{
-						"Course": 634,
-						"Level": "G",
-						"Title": "Data Mining",
-						"Course Description": "This course covers the principles of data mining system design and implementation. It presents methods for association and dependency analysis as well as classification, prediction, and clustering. Optional topics may include time series and graph mining, current trends in data mining, and data mining for scientific, medical and engineering applications."
+						"Spring" : [
+							{
+								"Course": 646,
+								"Level": "G",
+								"Title": "Network Protocols Security",
+								"Course Description": "Prerequisites: CS 656 or ECE 637, and ability to program in Java and C/C++. This course covers the security of network protocols currently used on the internet. It seeks to familiarize students with common threats and network attacks, and provides an in-depth study of methods used to secure network communication. The course includes an applied component, which will help students gain practical experience in attacking and defending networked systems. Topics include authentication systems, and routing security, firewalls, intrusion detection, honeypots, wireless network security, malware, propagation and detection, and web security."
+							},
+							{
+								"Course": 601,
+								"Level": "G",
+								"Title": "Organizational Behavior",
+								"Course Description": "Analysis of key organizational components; individual perception; learning ability; conflict resolution models; group processes in decision making; motivation; problem diagnosis, and the organization as the mechanism for joining into a coherent productive system. Organizational assessment for innovation, leadership styles, and environmental interaction."
+							}
+						],
+						"Summer" : [
+							{
+								"Course": 610,
+								"Level": "G",
+								"Title": "Data Structure & Alg",
+								"Course Description": "Prerequisite: CS 505 or CS 335 or equivalents (see undergraduate catalog for description). Intensive study of the fundamentals of data structures and algorithms. Presents the definitions, representations, processing algorithms for data structures, general design and analysis techniques for algorithms. Covers a broad variety of data structures, algorithms and their applications including linked lists, various tree organizations, hash tables, strings, storage allocation, algorithms for searching and sorting, and a selected collection of other algorithms. Programs are assigned to give students experience in algorithms, data structure design and implementation."
+							}
+						],
+						"Fall" : [
+							{
+								"Course": 634,
+								"Level": "G",
+								"Title": "Data Mining",
+								"Course Description": "This course covers the principles of data mining system design and implementation. It presents methods for association and dependency analysis as well as classification, prediction, and clustering. Optional topics may include time series and graph mining, current trends in data mining, and data mining for scientific, medical and engineering applications."
+							}
+						]
 					}
 				]
 			}
