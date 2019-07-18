@@ -151,7 +151,47 @@
 		"gpa": "4.0",
 		"url": "http://www.unipune.ac.in/",
 		"courses": [
-			""
+			"210241 - Discrete Structures",
+			"214442 - Computer Organization",
+			"210243 - Digital Electronics and Logic Design",
+			"214441 - Fundamentals of Data Structures",
+			"207005 - Humanities and Social Sciences",
+			"214443 - Digital Lab",
+			"214444 - Programming Lab",
+			"214445 - Communication and Language Lab",
+			"207003 - Engineering Mathematics 3",
+			"214446 - Computer Graphics",
+			"214447 - Processor Architectures and Interfacing",
+			"214448 - Data Structures and Files",
+			"214449 - Data Communication",
+			"214450 - Processor Interfacing Lab",
+			"214451 - Data Structures and Files Lab",
+			"210253 - Object Oriented Programming Lab",
+			"314441 - Operating System",
+			"314442 - Theory Of Computation",
+			"314443 - Computer Network Technology",
+			"310241 - Database Management Systems",
+			"310253 - Software Engineering",
+			"314444 - Operating System Design Lab",
+			"314445 - Information Systems Design Lab",
+			"314446 - Network Lab",
+			"314447 - Soft Skills Lab",
+			"314448 - System Software Programming",
+			"314449 - Management Information Systems",
+			"314450 - Programming Paradigms",
+			"314455 - Design and Analysis of Algorithms",
+			"314451 - Human Computer Interaction and Usability",
+			"314452 - Software Design Lab",
+			"314453 - Software Development Tools Lab",
+			"314454 - Seminar and Technical Communication",
+			"414441 - Information Assurance and Security",
+			"410443 - Object Oriented Modeling and Design",
+			"414442 - Software Testing and Quality Assurance",
+			"414443 - Advanced Operating Systems",
+			"414444 - Mobile Computing",
+			"414441 - Information Assurance and Security Laboratory",
+			"414445 - Computer Lab Practices I",
+			"414446 - Project Work"
 		]
 	}],
 	"awards": [{
@@ -235,6 +275,9 @@
 	}],
 	"references": [{
 		"name": "Angelo",
+		"reference": "Reference email..."
+	},{
+		"name": "Alap",
 		"reference": "Reference email..."
 	}]
 }
